@@ -1,0 +1,177 @@
+#ergebnis {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1%;
+
+}
+
+#button {
+    text-decoration: none;
+    color: black;
+    margin: 1.5%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 8%;
+    padding: 0.5%;
+    position: relative;
+    top: 2%;
+    left: 42.75%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 100, 0, 0.438);
+}
+#pokeName {
+    position: relative;
+    left: 42%;
+    top: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin: 1.5%;
+    margin-bottom: 0%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 10%;
+    text-align: center;
+}
+
+.pokemonDiv {
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 1.5%;
+    display: inline-grid;
+    background-color: aliceblue;
+    width: 50%;
+    position: relative;
+    left: 90%;
+    top: 5%;
+}
+
+.PokemonImg {
+    width: 50%;
+    position: relative;
+    left: 30%;
+    top: 0%;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fehler {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+
+}
+#PokeSearch {
+    position: relative;
+    left: 42%;
+    top: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin: 1.5%;
+    margin-bottom: 0%;
+}
+#HomeText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: aliceblue;
+    border-width: 2px;
+    text-align: center;
+    padding: 1.5%;
+    width: 30%;
+    position: relative;
+    left: 30%;
+    top: 10%;
+    background-color: rgba(0, 100, 0, 0.438);
+}
+body {
+    background-image: url(./Background.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ergebnis2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1%;
+    width: 100%;
+
+}
+
+
+#fehler {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+
+}
+#buttonDiv{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 42.5%;
+}
+#previousButton {
+    text-decoration: none;
+    color: black;
+    margin: 1.5%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 8%;
+    padding: 0.5%;
+    position: relative;
+    top: 2%;
+    left: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 100, 0, 0.438);
+}
+
+#nextButton {
+    text-decoration: none;
+    color: black;
+    margin: 1.5%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 8%;
+    padding: 0.5%;
+    position: relative;
+    top: 2%;
+    left: 55%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 100, 0, 0.438);
+}
+#entdeckeButton {
+    text-decoration: none;
+    color: black;
+    margin: 1.5%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 8%;
+    padding: 0.5%;
+    position: relative;
+    left: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 100, 0, 0.438);
+}
